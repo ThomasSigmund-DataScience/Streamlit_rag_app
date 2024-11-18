@@ -24,7 +24,7 @@ embeddings = HuggingFaceEmbeddings(model_name=embedding_model,
                                    cache_folder=embeddings_folder)
 
 # Define the absolute paths to the FAISS index files
-index_path = "C:\\faiss_index"
+index_path = "./faiss_index"
 faiss_file = os.path.join(index_path, "index.faiss")
 pkl_file = os.path.join(index_path, "index.pkl")
 
