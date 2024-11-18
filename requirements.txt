@@ -4,3 +4,4 @@ faiss-cpu  # or faiss-gpu if you prefer GPU support
 langchain-core
 langchain
 langchain_groq
+langchain-community
